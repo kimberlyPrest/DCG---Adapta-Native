@@ -1,0 +1,41 @@
+# Configuracao local/remota do projeto Supabase unico da DCG.
+# project_id e preenchido por `supabase link` quando o projeto for criado.
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+shadow_port = 54320
+major_version = 17
+
+[studio]
+enabled = true
+port = 54323
+
+[storage]
+enabled = true
+
+[auth]
+enabled = true
+site_url = "http://localhost:5173"
+# Cadastro publico desligado (achado T-05). Usuario nasce por convite da Central DP.
+enable_signup = false
+
+[auth.email]
+enable_signup = false
+enable_confirmations = true
+
+# SSO: o destino troca o codigo antes de ter sessao.
+[functions.exchange-cross-system-code]
+verify_jwt = false
+
+[functions.generate-cross-system-code]
+verify_jwt = true
+
+[functions.admin-convidar-usuario]
+verify_jwt = true

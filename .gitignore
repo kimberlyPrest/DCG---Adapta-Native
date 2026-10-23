@@ -1,3 +1,28 @@
 .DS_Store
 .env
 .env.*
+!.env.example
+
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+
+*.log
+npm-debug.log*
+
+supabase/.temp/
+supabase/.branches/
+
+# Videos e gravacoes ficam no Drive, nao no Git.
+*.mp4
+*.mov
+
+# Planilhas/extratos com dado pessoal ou financeiro real nunca entram no Git.
+01-Documento/**/*.xlsx
+01-Documento/**/*.csv
+01-Documento/**/*.ofx
+
+# Legado PocketBase: so fonte local para portar codigo, nao vai para o Git.
+04-Sistemas/_legado-pocketbase/

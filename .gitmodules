@@ -1,0 +1,12 @@
+[submodule "04-Sistemas/sistema-1-io"]
+	path = 04-Sistemas/sistema-1-io
+	url = https://github.com/Daniel-Diretoria/Sistema-1.git
+[submodule "04-Sistemas/sistema-2-books"]
+	path = 04-Sistemas/sistema-2-books
+	url = https://github.com/Daniel-Diretoria/sistema-2.git
+[submodule "04-Sistemas/sistema-3-crm"]
+	path = 04-Sistemas/sistema-3-crm
+	url = https://github.com/Daniel-Diretoria/sistema-3.git
+[submodule "04-Sistemas/sistema-4-margem-real"]
+	path = 04-Sistemas/sistema-4-margem-real
+	url = https://github.com/Daniel-Diretoria/sistema-4.git
