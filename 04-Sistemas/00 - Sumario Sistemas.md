@@ -6,7 +6,7 @@ Estado em 2026-10-23. Detalhes do banco compartilhado e regras para o Skip: `00-
 
 | Sistema | Slug | Pasta | Repo | Projeto Skip | Commit |
 |---|---|---|---|---|---|
-| Central DP | `hub` | — (5ª base, a criar) | — | — | — |
+| Central DP | `hub` | `sistema-5-central-dp/` | `Daniel-Diretoria/Central-DP` | — | `64fe1b5` |
 | Inteligência Operacional | `io` | `sistema-1-io/` | `Daniel-Diretoria/Sistema-1` | 69061 "Sistema 1" | `26d1bcb` |
 | Auditoria de Books | `books` | `sistema-2-books/` | `Daniel-Diretoria/sistema-2` | 69056 "Sistema 2" | `505f888` |
 | CRM de Orçamento e Contratos | `crm` | `sistema-3-crm/` | `Daniel-Diretoria/sistema-3` | 69058 "Sistema 3" | `dbb820e` |
@@ -36,7 +36,7 @@ Fora por decisão: Gestão de Ocorrências (vai para a Central DP, D-01) e os do
 5. Hooks PocketBase → Edge Functions ou funções SQL; crons → `pg_cron`.
 6. Importar dados reais por script rastreável (nunca migration).
 
-Ordem sugerida: fundação (SPEC-001/002) → IO (dona dos mestres) → CRM → Books → Margem Real. Central DP quando a 5ª base existir; até lá usuários e papéis pelo painel/SQL.
+Ordem sugerida: fundação (SPEC-001/002) → IO (dona dos mestres) → CRM → Books → Margem Real. Central DP (base `sistema-5-central-dp`) depois da fundação; até lá usuários e papéis pelo painel/SQL.
 
 ## Segurança
 

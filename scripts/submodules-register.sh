@@ -14,6 +14,7 @@ SISTEMAS=(
   "sistema-2-books"
   "sistema-3-crm"
   "sistema-4-margem-real"
+  "sistema-5-central-dp"
 )
 
 for s in "${SISTEMAS[@]}"; do

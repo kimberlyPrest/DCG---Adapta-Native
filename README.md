@@ -10,7 +10,7 @@ Todos os sistemas usam **um unico projeto Supabase**: mesmo `auth.users`, mesmo 
 
 | Sistema | Slug | Base Skip / repo | Papel | Substitui |
 |---|---|---|---|---|
-| Central DP | `hub` | 5a base, a criar | Hub: catalogo de sistemas, usuarios, permissoes, gestao de trabalho (inclui Ocorrencias) | Gestao de Ocorrencias + login de cada sistema |
+| Central DP | `hub` | Sistema 5 / `Daniel-Diretoria/Central-DP` | Hub: catalogo de sistemas, usuarios, permissoes, gestao de trabalho (inclui Ocorrencias) | Gestao de Ocorrencias + login de cada sistema |
 | Inteligencia Operacional | `io` | Sistema 1 / `Daniel-Diretoria/Sistema-1` | Fonte de verdade operacional: lojas, redes, promotores, industrias, produtos, validades, rupturas, devolucoes | `intelig-ncia-operacional-mvp` (PocketBase) |
 | Auditoria de Books | `books` | Sistema 2 / `Daniel-Diretoria/sistema-2` | Auditoria de execucao por foto | `sistema-de-auditoria-de-books` (PocketBase) |
 | CRM de Orcamento e Contratos | `crm` | Sistema 3 / `Daniel-Diretoria/sistema-3` | Comercial: clientes, propostas, contratos, regras operacionais, dimensionamento | `crm-de-or-amento-e-contratos` (PocketBase) |

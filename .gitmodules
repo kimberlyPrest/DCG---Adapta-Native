@@ -10,3 +10,6 @@
 [submodule "04-Sistemas/sistema-4-margem-real"]
 	path = 04-Sistemas/sistema-4-margem-real
 	url = https://github.com/Daniel-Diretoria/sistema-4.git
+[submodule "04-Sistemas/sistema-5-central-dp"]
+	path = 04-Sistemas/sistema-5-central-dp
+	url = https://github.com/Daniel-Diretoria/Central-DP.git

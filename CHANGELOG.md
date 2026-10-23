@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2026-10-23 — Base Skip da Central DP (Sistema 5)
+
+- **Área:** 04-Sistemas.
+- **Feito:** `Daniel-Diretoria/Central-DP` clonada em `04-Sistemas/sistema-5-central-dp/` e registrada como submodule (`64fe1b5`). Já aponta para o Supabase único; traz só o login do template e a migration de seed do Skip.
+- **Nada alterado** no Skip ou no Supabase.
+
 ## 2026-10-23 — Análise dos 4 bancos e plano de unificação
 
 - **Área:** banco, todos os sistemas.
